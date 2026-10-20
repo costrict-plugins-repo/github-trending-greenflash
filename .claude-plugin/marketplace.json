@@ -1,0 +1,25 @@
+{
+  "name": "greenflash-plugins",
+  "owner": {
+    "name": "Greenflash AI",
+    "email": "support@greenflash.ai"
+  },
+  "metadata": {
+    "description": "Official Greenflash agent skills. Analyze real user-agent conversations to find what's broken, optimize prompts, and understand your users."
+  },
+  "plugins": [
+    {
+      "name": "greenflash",
+      "source": "./",
+      "description": "Analyze real user-agent conversations to surface where users get blocked, optimize prompts, and understand what drives engagement or churn",
+      "category": "insights",
+      "tags": [
+        "ai-product-optimization",
+        "conversation-insights",
+        "prompt-optimization",
+        "user-experience",
+        "user-insights"
+      ]
+    }
+  ]
+}

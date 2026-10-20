@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(cat .greenflash*)",
+      "Bash(printenv GREENFLASH_API_KEY)",
+      "Bash(printenv GREENFLASH_API_URL)",
+      "Bash(pip list:*)",
+      "Bash(hostname)",
+      "Bash(basename:*)",
+      "Bash(sleep *)",
+      "Bash(open 'https://www.greenflash.ai/*)",
+      "Bash(xdg-open 'https://www.greenflash.ai/*)",
+      "Bash(start 'https://www.greenflash.ai/*)",
+      "Read(.greenflash)",
+      "Read(//**/.greenflash)",
+      "Write(.greenflash)",
+      "Write(//**/.greenflash)",
+      "Edit(.greenflash)",
+      "Edit(//**/.greenflash)",
+      "Read(.gitignore)",
+      "Read(//**/.gitignore)",
+      "Edit(.gitignore)",
+      "Edit(//**/.gitignore)",
+      "Write(.gitignore)",
+      "Write(//**/.gitignore)"
+    ]
+  }
+}
